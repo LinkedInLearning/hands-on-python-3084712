@@ -26,7 +26,7 @@ def laureate():
             results.append(laureate)
     return jsonify(results)
 
-    return jsonify({"error": "Not found"}), 404
+    # return jsonify({"error": "Not found"}), 404
     # return jsonify(laureates)
 
 
