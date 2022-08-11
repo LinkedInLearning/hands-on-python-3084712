@@ -18,11 +18,13 @@ def index():
 @app.route("/laureates/")
 def laureate():
     # template found in templates/laureate.html
+    results = []
     if not request.args.get("surname"):
-        return jsonify(laureates)
+        return jsonify(results)
     for laureate in laureates:
         if request.args.get("surname").lower().strip() in laureate["surname"].lower():
-            return jsonify(laureate)
+            results.append(laureate)
+    return jsonify(results)
 
     return jsonify({"error": "Not found"}), 404
     # return jsonify(laureates)

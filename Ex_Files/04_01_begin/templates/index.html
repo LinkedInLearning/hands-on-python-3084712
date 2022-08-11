@@ -1,12 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://unpkg.com/@picocss/pico@latest/css/pico.min.css">
+
 </head>
+
 <body>
-    <h1>hello</h1>
+    <div class="container">
+        <nav>
+            <ul>
+                <li><strong>laureate search</strong></li>
+            </ul>
+        </nav>
+        <div class="row">
+            <input type="text" id="surname" />
+        </div>
+        <div class="results">
+            <details role="list" open>
+                <summary aria-haspopup="listbox" role="button" disabled style="display: none;">
+                    Dropdown as a button 1
+                </summary>
+                <ul role="listbox">
+                </ul>
+            </details>
+        </div>
+    </div>
+    <script>
+        const search = document.getElementById('surname');
+        const results = document.querySelector('ul[role="listbox"]');
+        const details = document.querySelector('details[open]');
+        search.addEventListener('input', function (e) {
+            // on third keystroke, show results
+            const searchInput = e.target.value;
+            if (searchInput.length < 2) {
+                return
+            }
+            fetch('/laureates/?surname=' + e.target.value)
+                .then(res => res.json())
+                .then(data => {
+                    results.innerHTML = '';
+                    data.forEach(function (item) {
+                        // TODO 
+                        results.innerHTML += `<li><a>${item.surname}</a></li>`;
+                    });
+                });
+        });
+    </script>
 </body>
+
 </html>
