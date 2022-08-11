@@ -1,5 +1,5 @@
 import csv
-from flask import Flask, render_template, request, redirect, url_for, jsonify
+from flask import Flask, render_template, request, jsonify
 
 
 app = Flask(__name__)
@@ -18,16 +18,16 @@ def index():
 @app.route("/laureates/")
 def laureate():
     # template found in templates/laureate.html
+    # TODO: LinkedIn learners start here.
     results = []
     if not request.args.get("surname"):
         return jsonify(results)
+
+    # TODO: iterate laureates.
     for laureate in laureates:
         if request.args.get("surname").lower().strip() in laureate["surname"].lower():
             results.append(laureate)
     return jsonify(results)
-
-    # return jsonify({"error": "Not found"}), 404
-    # return jsonify(laureates)
 
 
 app.run(debug=True)
