@@ -11,7 +11,3 @@ print(message)
 def my_function():
     greet = "Hello"
     return greet
-
-
-if __name__ == "__main__":
-    print(my_function())
