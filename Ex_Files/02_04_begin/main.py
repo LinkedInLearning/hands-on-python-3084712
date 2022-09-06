@@ -1,4 +1,3 @@
-
 NAMES = ["John", "Paul", "George", "Ringo"]
 AGES = [20, 21, 22, 23]
 
@@ -21,4 +20,3 @@ for i, name in enumerate(NAMES):
 
 for i in range(5):
     print(i)
-

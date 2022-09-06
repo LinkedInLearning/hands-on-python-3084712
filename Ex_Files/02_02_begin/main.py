@@ -1,6 +1,5 @@
-
 greet = "Hello World"
-extened_grt = "Hello World, "+ "this is a long string"
+extened_grt = "Hello World, " + "this is a long string"
 
 name = "John"
 
@@ -11,5 +10,3 @@ greet_format = "Hello {}"
 formated = greet_format.format(name)
 
 print(intrupution, formated)
-
-
