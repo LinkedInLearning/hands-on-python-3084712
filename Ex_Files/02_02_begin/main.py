@@ -7,6 +7,6 @@ intrupution = f"Hello {name}"
 
 greet_format = "Hello {}"
 
-formated = greet_format.format(name)
+formatted = greet_format.format(name)
 
-print(intrupution, formated)
+print(intrupution, formatted)
