@@ -1,13 +1,11 @@
-from distutils.debug import DEBUG
-
-from pkg_resources import DEVELOP_DIST
+import os
 
 DEVELOPMENT = "development"
 PRODUCTION = "production"
 STAGING = "staging"
 
 
-current_env = DEVELOPMENT
+current_env = os.environ.get("ENV_NAME", DEVELOPMENT)
 
 if current_env == DEVELOPMENT:
     print("Development environment")
