@@ -4,7 +4,6 @@ DEVELOPMENT = "development"
 PRODUCTION = "production"
 STAGING = "staging"
 
-
 current_env = os.environ.get("ENV_NAME", DEVELOPMENT)
 
 if current_env == DEVELOPMENT:
