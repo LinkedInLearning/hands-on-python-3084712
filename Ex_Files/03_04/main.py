@@ -23,12 +23,12 @@ with open("laureates.csv", "r") as f:
 
 # 1. you can access parts of strings the same way you do lists
 #      hey[2] == "y"
-# 2. You can add to a list using 
+# 2. You can add to a list using
 #      my_list.append("something")
 
 laureates_beginning_with_a = []
 # LinkedIn learner code here
-  
+
 
 with open("laureates.json", "w") as f:
     json.dump(laureates_beginning_with_a, f, indent=2)
