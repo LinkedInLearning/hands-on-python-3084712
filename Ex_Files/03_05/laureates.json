@@ -1,0 +1,862 @@
+[
+  {
+    "name": "Albert A.",
+    "surname": "Michelson",
+    "born": "1852-12-19",
+    "died": "1931-05-09",
+    "birthplace": "Prussia (now Poland)",
+    "motivation": "for his optical precision instruments and the spectroscopic and metrological investigations carried out with their aid",
+    "category": "physics",
+    "year": "1907"
+  },
+  {
+    "name": "Albert",
+    "surname": "Einstein",
+    "born": "1879-03-14",
+    "died": "1955-04-18",
+    "birthplace": "Germany",
+    "motivation": "for his services to Theoretical Physics, and especially for his discovery of the law of the photoelectric effect",
+    "category": "physics",
+    "year": "1921"
+  },
+  {
+    "name": "Arthur H.",
+    "surname": "Compton",
+    "born": "1892-09-10",
+    "died": "1962-03-15",
+    "birthplace": "USA",
+    "motivation": "for his discovery of the effect named after him",
+    "category": "physics",
+    "year": "1927"
+  },
+  {
+    "name": "Aleksandr M.",
+    "surname": "Prokhorov",
+    "born": "1916-07-11",
+    "died": "2002-01-08",
+    "birthplace": "Australia",
+    "motivation": "for fundamental work in the field of quantum electronics, which has led to the construction of oscillators and amplifiers based on the maser-laser principle",
+    "category": "physics",
+    "year": "1964"
+  },
+  {
+    "name": "Alfred",
+    "surname": "Kastler",
+    "born": "1902-05-03",
+    "died": "1984-01-07",
+    "birthplace": "Germany (now France)",
+    "motivation": "for the discovery and development of optical methods for studying Hertzian resonances in atoms",
+    "category": "physics",
+    "year": "1966"
+  },
+  {
+    "name": "Antony",
+    "surname": "Hewish",
+    "born": "1924-05-11",
+    "died": "2021-09-13",
+    "birthplace": "United Kingdom",
+    "motivation": "for their pioneering research in radio astrophysics: Ryle for his observations and inventions, in particular of the aperture synthesis technique, and Hewish for his decisive role in the discovery of pulsars",
+    "category": "physics",
+    "year": "1974"
+  },
+  {
+    "name": "Aage N.",
+    "surname": "Bohr",
+    "born": "1922-06-19",
+    "died": "2009-09-08",
+    "birthplace": "Denmark",
+    "motivation": "for the discovery of the connection between collective motion and particle motion in atomic nuclei and the development of the theory of the structure of the atomic nucleus based on this connection",
+    "category": "physics",
+    "year": "1975"
+  },
+  {
+    "name": "Arno",
+    "surname": "Penzias",
+    "born": "1933-04-26",
+    "died": "0000-00-00",
+    "birthplace": "Germany",
+    "motivation": "for their discovery of cosmic microwave background radiation",
+    "category": "physics",
+    "year": "1978"
+  },
+  {
+    "name": "Abdus",
+    "surname": "Salam",
+    "born": "1926-01-29",
+    "died": "1996-11-21",
+    "birthplace": "India (now Pakistan)",
+    "motivation": "for their contributions to the theory of the unified weak and electromagnetic interaction between elementary particles, including, inter alia, the prediction of the weak neutral current",
+    "category": "physics",
+    "year": "1979"
+  },
+  {
+    "name": "Arthur L.",
+    "surname": "Schawlow",
+    "born": "1921-05-05",
+    "died": "1999-04-28",
+    "birthplace": "USA",
+    "motivation": "for their contribution to the development of laser spectroscopy",
+    "category": "physics",
+    "year": "1981"
+  },
+  {
+    "name": "Adolf",
+    "surname": "von Baeyer",
+    "born": "1835-10-31",
+    "died": "1917-08-20",
+    "birthplace": "Prussia (now Germany)",
+    "motivation": "in recognition of his services in the advancement of organic chemistry and the chemical industry, through his work on organic dyes and hydroaromatic compounds",
+    "category": "chemistry",
+    "year": "1905"
+  },
+  {
+    "name": "Alfred",
+    "surname": "Werner",
+    "born": "1866-12-12",
+    "died": "1919-11-15",
+    "birthplace": "France",
+    "motivation": "in recognition of his work on the linkage of atoms in molecules by which he has thrown new light on earlier investigations and opened up new fields of research especially in inorganic chemistry",
+    "category": "chemistry",
+    "year": "1913"
+  },
+  {
+    "name": "Adolf",
+    "surname": "Windaus",
+    "born": "1876-12-25",
+    "died": "1959-06-09",
+    "birthplace": "Germany",
+    "motivation": "for the services rendered through his research into the constitution of the sterols and their connection with the vitamins",
+    "category": "chemistry",
+    "year": "1928"
+  },
+  {
+    "name": "Arthur",
+    "surname": "Harden",
+    "born": "1865-10-12",
+    "died": "1940-06-17",
+    "birthplace": "United Kingdom",
+    "motivation": "for their investigations on the fermentation of sugar and fermentative enzymes",
+    "category": "chemistry",
+    "year": "1929"
+  },
+  {
+    "name": "Adolf",
+    "surname": "Butenandt",
+    "born": "1903-03-24",
+    "died": "1995-01-18",
+    "birthplace": "Germany",
+    "motivation": "for his work on sex hormones",
+    "category": "chemistry",
+    "year": "1939"
+  },
+  {
+    "name": "Artturi",
+    "surname": "Virtanen",
+    "born": "1895-01-15",
+    "died": "1973-11-11",
+    "birthplace": "Russian Empire (now Finland)",
+    "motivation": "for his research and inventions in agricultural and nutrition chemistry, especially for his fodder preservation method",
+    "category": "chemistry",
+    "year": "1945"
+  },
+  {
+    "name": "Arne",
+    "surname": "Tiselius",
+    "born": "1902-08-10",
+    "died": "1971-10-29",
+    "birthplace": "Sweden",
+    "motivation": "for his research on electrophoresis and adsorption analysis, especially for his discoveries concerning the complex nature of the serum proteins",
+    "category": "chemistry",
+    "year": "1948"
+  },
+  {
+    "name": "Archer J.P.",
+    "surname": "Martin",
+    "born": "1910-03-01",
+    "died": "2002-07-28",
+    "birthplace": "United Kingdom",
+    "motivation": "for their invention of partition chromatography",
+    "category": "chemistry",
+    "year": "1952"
+  },
+  {
+    "name": "Aaron",
+    "surname": "Klug",
+    "born": "1926-08-11",
+    "died": "2018-11-20",
+    "birthplace": "Lithuania",
+    "motivation": "for his development of crystallographic electron microscopy and his structural elucidation of biologically important nucleic acid-protein complexes",
+    "category": "chemistry",
+    "year": "1982"
+  },
+  {
+    "name": "Ahmed",
+    "surname": "Zewail",
+    "born": "1946-02-26",
+    "died": "2016-08-02",
+    "birthplace": "Egypt",
+    "motivation": "for his studies of the transition states of chemical reactions using femtosecond spectroscopy",
+    "category": "chemistry",
+    "year": "1999"
+  },
+  {
+    "name": "Alphonse",
+    "surname": "Laveran",
+    "born": "1845-06-18",
+    "died": "1922-05-18",
+    "birthplace": "France",
+    "motivation": "in recognition of his work on the role played by protozoa in causing diseases",
+    "category": "medicine",
+    "year": "1907"
+  },
+  {
+    "name": "Albrecht",
+    "surname": "Kossel",
+    "born": "1853-09-16",
+    "died": "1927-07-05",
+    "birthplace": "Mecklenburg (now Germany)",
+    "motivation": "in recognition of the contributions to our knowledge of cell chemistry made through his work on proteins, including the nucleic substances",
+    "category": "medicine",
+    "year": "1910"
+  },
+  {
+    "name": "Allvar",
+    "surname": "Gullstrand",
+    "born": "1862-06-05",
+    "died": "1930-07-28",
+    "birthplace": "Sweden",
+    "motivation": "for his work on the dioptrics of the eye",
+    "category": "medicine",
+    "year": "1911"
+  },
+  {
+    "name": "Alexis",
+    "surname": "Carrel",
+    "born": "1873-06-28",
+    "died": "1944-11-05",
+    "birthplace": "France",
+    "motivation": "in recognition of his work on vascular suture and the transplantation of blood vessels and organs",
+    "category": "medicine",
+    "year": "1912"
+  },
+  {
+    "name": "August",
+    "surname": "Krogh",
+    "born": "1874-11-15",
+    "died": "1949-09-13",
+    "birthplace": "Denmark",
+    "motivation": "for his discovery of the capillary motor regulating mechanism",
+    "category": "medicine",
+    "year": "1920"
+  },
+  {
+    "name": "Archibald V.",
+    "surname": "Hill",
+    "born": "1886-09-26",
+    "died": "1977-06-03",
+    "birthplace": "United Kingdom",
+    "motivation": "for his discovery relating to the production of heat in the muscle",
+    "category": "medicine",
+    "year": "1922"
+  },
+  {
+    "name": "Albert",
+    "surname": "Szent-Gy\u00f6rgyi",
+    "born": "1893-09-16",
+    "died": "1986-10-22",
+    "birthplace": "Austria-Hungary (now Hungary)",
+    "motivation": "for his discoveries in connection with the biological combustion processes, with special reference to vitamin C and the catalysis of fumaric acid",
+    "category": "medicine",
+    "year": "1937"
+  },
+  {
+    "name": "Andr\u00e9 F.",
+    "surname": "Cournand",
+    "born": "1895-09-24",
+    "died": "1988-02-19",
+    "birthplace": "France",
+    "motivation": "for their discoveries concerning heart catheterization and pathological changes in the circulatory system",
+    "category": "medicine",
+    "year": "1956"
+  },
+  {
+    "name": "Arthur",
+    "surname": "Kornberg",
+    "born": "1918-03-03",
+    "died": "2007-10-26",
+    "birthplace": "USA",
+    "motivation": "for their discovery of the mechanisms in the biological synthesis of ribonucleic acid and deoxyribonucleic acid",
+    "category": "medicine",
+    "year": "1959"
+  },
+  {
+    "name": "Alan",
+    "surname": "Hodgkin",
+    "born": "1914-02-05",
+    "died": "1998-12-20",
+    "birthplace": "United Kingdom",
+    "motivation": "for their discoveries concerning the ionic mechanisms involved in excitation and inhibition in the peripheral and central portions of the nerve cell membrane",
+    "category": "medicine",
+    "year": "1963"
+  },
+  {
+    "name": "Andrew",
+    "surname": "Huxley",
+    "born": "1917-11-22",
+    "died": "2012-05-30",
+    "birthplace": "United Kingdom",
+    "motivation": "for their discoveries concerning the ionic mechanisms involved in excitation and inhibition in the peripheral and central portions of the nerve cell membrane",
+    "category": "medicine",
+    "year": "1963"
+  },
+  {
+    "name": "Andr\u00e9",
+    "surname": "Lwoff",
+    "born": "1902-05-08",
+    "died": "1994-09-30",
+    "birthplace": "France",
+    "motivation": "for their discoveries concerning genetic control of enzyme and virus synthesis",
+    "category": "medicine",
+    "year": "1965"
+  },
+  {
+    "name": "Alfred D.",
+    "surname": "Hershey",
+    "born": "1908-12-04",
+    "died": "1997-05-22",
+    "birthplace": "USA",
+    "motivation": "for their discoveries concerning the replication mechanism and the genetic structure of viruses",
+    "category": "medicine",
+    "year": "1969"
+  },
+  {
+    "name": "Albert",
+    "surname": "Claude",
+    "born": "1898-08-24",
+    "died": "1983-05-22",
+    "birthplace": "Belgium",
+    "motivation": "for their discoveries concerning the structural and functional organization of the cell",
+    "category": "medicine",
+    "year": "1974"
+  },
+  {
+    "name": "Andrew V.",
+    "surname": "Schally",
+    "born": "1926-11-30",
+    "died": "0000-00-00",
+    "birthplace": "Poland (now Lithuania)",
+    "motivation": "for their discoveries concerning the peptide hormone production of the brain",
+    "category": "medicine",
+    "year": "1977"
+  },
+  {
+    "name": "Allan M.",
+    "surname": "Cormack",
+    "born": "1924-02-23",
+    "died": "1998-05-07",
+    "birthplace": "South Africa",
+    "motivation": "for the development of computer assisted tomography",
+    "category": "medicine",
+    "year": "1979"
+  },
+  {
+    "name": "Alfred G.",
+    "surname": "Gilman",
+    "born": "1941-07-01",
+    "died": "2015-12-23",
+    "birthplace": "USA",
+    "motivation": "for their discovery of G-proteins and the role of these proteins in signal transduction in cells",
+    "category": "medicine",
+    "year": "1994"
+  },
+  {
+    "name": "Albert",
+    "surname": "Gobat",
+    "born": "1843-05-21",
+    "died": "1914-03-16",
+    "birthplace": "Switzerland",
+    "motivation": "for his eminently practical administration of the Inter-Parliamentary Union",
+    "category": "peace",
+    "year": "1902"
+  },
+  {
+    "name": "Auguste",
+    "surname": "Beernaert",
+    "born": "1829-07-26",
+    "died": "1912-10-06",
+    "birthplace": "Belgium",
+    "motivation": "for their prominent position in the international movement for peace and arbitration",
+    "category": "peace",
+    "year": "1909"
+  },
+  {
+    "name": "Alfred",
+    "surname": "Fried",
+    "born": "1864-11-11",
+    "died": "1921-05-04",
+    "birthplace": "Austria",
+    "motivation": "for his effort to expose and fight what he considers to be the main cause of war, namely, the anarchy in international relations",
+    "category": "peace",
+    "year": "1911"
+  },
+  {
+    "name": "Aristide",
+    "surname": "Briand",
+    "born": "1862-03-28",
+    "died": "1932-03-07",
+    "birthplace": "France",
+    "motivation": "for their crucial role in bringing about the Locarno Treaty",
+    "category": "peace",
+    "year": "1926"
+  },
+  {
+    "name": "Arthur",
+    "surname": "Henderson",
+    "born": "1863-09-13",
+    "died": "1935-10-20",
+    "birthplace": "Scotland",
+    "motivation": "for his untiring struggle and his courageous efforts as Chairman of the League of Nations Disarmament Conference 1931-34",
+    "category": "peace",
+    "year": "1934"
+  },
+  {
+    "name": "American Friends Service Committee",
+    "surname": "",
+    "born": "1917-00-00",
+    "died": "0000-00-00",
+    "birthplace": "",
+    "motivation": "for their pioneering work in the international peace movement and compassionate effort to relieve human suffering, thereby promoting the fraternity between nations",
+    "category": "peace",
+    "year": "1947"
+  },
+  {
+    "name": "Albert",
+    "surname": "Schweitzer",
+    "born": "1875-01-14",
+    "died": "1965-09-04",
+    "birthplace": "Germany (now France)",
+    "motivation": "for his altruism, reverence for life, and tireless humanitarian work which has helped making the idea of brotherhood between men and nations a living one",
+    "category": "peace",
+    "year": "1952"
+  },
+  {
+    "name": "Albert",
+    "surname": "Lutuli",
+    "born": "1898-00-00",
+    "died": "1967-07-21",
+    "birthplace": "Southern Rhodesia (now Zimbabwe)",
+    "motivation": "for his non-violent struggle against apartheid",
+    "category": "peace",
+    "year": "1960"
+  },
+  {
+    "name": "Andrei",
+    "surname": "Sakharov",
+    "born": "1921-05-21",
+    "died": "1989-12-14",
+    "birthplace": "Russia",
+    "motivation": "for his struggle for human rights in the Soviet Union, for disarmament and cooperation between all nations",
+    "category": "peace",
+    "year": "1975"
+  },
+  {
+    "name": "Amnesty International",
+    "surname": "",
+    "born": "1961-00-00",
+    "died": "0000-00-00",
+    "birthplace": "",
+    "motivation": "for worldwide respect for human rights",
+    "category": "peace",
+    "year": "1977"
+  },
+  {
+    "name": "Anwar",
+    "surname": "al-Sadat",
+    "born": "1918-12-25",
+    "died": "1981-10-06",
+    "birthplace": "Egypt",
+    "motivation": "for jointly having negotiated peace between Egypt and Israel in 1978",
+    "category": "peace",
+    "year": "1978"
+  },
+  {
+    "name": "Anjez\u00eb Gonxhe",
+    "surname": "Bojaxhiu",
+    "born": "1910-08-26",
+    "died": "1997-09-05",
+    "birthplace": "Ottoman Empire (now North Macedonia)",
+    "motivation": "for her work for bringing help to suffering humanity",
+    "category": "peace",
+    "year": "1979"
+  },
+  {
+    "name": "Adolfo",
+    "surname": "P\u00e9rez Esquivel",
+    "born": "1931-11-26",
+    "died": "0000-00-00",
+    "birthplace": "Argentina",
+    "motivation": "for being a source of inspiration to repressed people, especially in Latin America",
+    "category": "peace",
+    "year": "1980"
+  },
+  {
+    "name": "Alva",
+    "surname": "Myrdal",
+    "born": "1902-01-31",
+    "died": "1986-02-01",
+    "birthplace": "Sweden",
+    "motivation": "for their work for disarmament and nuclear and weapon-free zones",
+    "category": "peace",
+    "year": "1982"
+  },
+  {
+    "name": "Alfonso",
+    "surname": "Garc\u00eda Robles",
+    "born": "1911-03-20",
+    "died": "1991-09-02",
+    "birthplace": "Mexico",
+    "motivation": "for their work for disarmament and nuclear and weapon-free zones",
+    "category": "peace",
+    "year": "1982"
+  },
+  {
+    "name": "Aung San Suu Kyi",
+    "surname": "",
+    "born": "1945-06-19",
+    "died": "0000-00-00",
+    "birthplace": "Burma (now Myanmar)",
+    "motivation": "for her non-violent struggle for democracy and human rights",
+    "category": "peace",
+    "year": "1991"
+  },
+  {
+    "name": "Anatole",
+    "surname": "France",
+    "born": "1844-04-16",
+    "died": "1924-10-12",
+    "birthplace": "France",
+    "motivation": "in recognition of his brilliant literary achievements, characterized as they are by a nobility of style, a profound human sympathy, grace, and a true Gallic temperament",
+    "category": "literature",
+    "year": "1921"
+  },
+  {
+    "name": "Andr\u00e9",
+    "surname": "Gide",
+    "born": "1869-11-22",
+    "died": "1951-02-19",
+    "birthplace": "France",
+    "motivation": "for his comprehensive and artistically significant writings, in which human problems and conditions have been presented with a fearless love of truth and keen psychological insight",
+    "category": "literature",
+    "year": "1947"
+  },
+  {
+    "name": "Albert",
+    "surname": "Camus",
+    "born": "1913-11-07",
+    "died": "1960-01-04",
+    "birthplace": "French Algeria (now Algeria)",
+    "motivation": "for his important literary production, which with clear-sighted earnestness illuminates the problems of the human conscience in our times",
+    "category": "literature",
+    "year": "1957"
+  },
+  {
+    "name": "Alexandr",
+    "surname": "Solzhenitsyn",
+    "born": "1918-12-11",
+    "died": "2008-08-03",
+    "birthplace": "Russia",
+    "motivation": "for the ethical force with which he has pursued the indispensable traditions of Russian literature",
+    "category": "literature",
+    "year": "1970"
+  },
+  {
+    "name": "Amartya",
+    "surname": "Sen",
+    "born": "1933-11-03",
+    "died": "0000-00-00",
+    "birthplace": "India",
+    "motivation": "for his contributions to welfare economics",
+    "category": "economics",
+    "year": "1998"
+  },
+  {
+    "name": "Arvid",
+    "surname": "Carlsson",
+    "born": "1923-01-25",
+    "died": "2018-06-29",
+    "birthplace": "Sweden",
+    "motivation": "for their discoveries concerning signal transduction in the nervous system",
+    "category": "medicine",
+    "year": "2000"
+  },
+  {
+    "name": "Alan",
+    "surname": "Heeger",
+    "born": "1936-01-22",
+    "died": "0000-00-00",
+    "birthplace": "USA",
+    "motivation": "for the discovery and development of conductive polymers",
+    "category": "chemistry",
+    "year": "2000"
+  },
+  {
+    "name": "Alan",
+    "surname": "MacDiarmid",
+    "born": "1927-04-14",
+    "died": "2007-02-07",
+    "birthplace": "New Zealand",
+    "motivation": "for the discovery and development of conductive polymers",
+    "category": "chemistry",
+    "year": "2000"
+  },
+  {
+    "name": "A. Michael",
+    "surname": "Spence",
+    "born": "1943-00-00",
+    "died": "0000-00-00",
+    "birthplace": "USA",
+    "motivation": "for their analyses of markets with asymmetric information",
+    "category": "economics",
+    "year": "2001"
+  },
+  {
+    "name": "Alexei",
+    "surname": "Abrikosov",
+    "born": "1928-06-25",
+    "died": "2017-03-29",
+    "birthplace": "USSR (now Russia)",
+    "motivation": "for pioneering contributions to the theory of superconductors and superfluids",
+    "category": "physics",
+    "year": "2003"
+  },
+  {
+    "name": "Anthony J.",
+    "surname": "Leggett",
+    "born": "1938-03-26",
+    "died": "0000-00-00",
+    "birthplace": "United Kingdom",
+    "motivation": "for pioneering contributions to the theory of superconductors and superfluids",
+    "category": "physics",
+    "year": "2003"
+  },
+  {
+    "name": "Aaron",
+    "surname": "Ciechanover",
+    "born": "1947-10-01",
+    "died": "0000-00-00",
+    "birthplace": "British Protectorate of Palestine (now Israel)",
+    "motivation": "for the discovery of ubiquitin-mediated protein degradation",
+    "category": "chemistry",
+    "year": "2004"
+  },
+  {
+    "name": "Avram",
+    "surname": "Hershko",
+    "born": "1937-12-31",
+    "died": "0000-00-00",
+    "birthplace": "Hungary",
+    "motivation": "for the discovery of ubiquitin-mediated protein degradation",
+    "category": "chemistry",
+    "year": "2004"
+  },
+  {
+    "name": "Andrew Z.",
+    "surname": "Fire",
+    "born": "1959-04-27",
+    "died": "0000-00-00",
+    "birthplace": "USA",
+    "motivation": "for their discovery of RNA interference - gene silencing by double-stranded RNA",
+    "category": "medicine",
+    "year": "2006"
+  },
+  {
+    "name": "Albert",
+    "surname": "Fert",
+    "born": "1938-03-07",
+    "died": "0000-00-00",
+    "birthplace": "France",
+    "motivation": "for the discovery of Giant Magnetoresistance",
+    "category": "physics",
+    "year": "2007"
+  },
+  {
+    "name": "Al",
+    "surname": "Gore",
+    "born": "1948-03-31",
+    "died": "0000-00-00",
+    "birthplace": "USA",
+    "motivation": "for their efforts to build up and disseminate greater knowledge about man-made climate change, and to lay the foundations for the measures that are needed to counteract such change",
+    "category": "peace",
+    "year": "2007"
+  },
+  {
+    "name": "Ada E.",
+    "surname": "Yonath",
+    "born": "1939-06-22",
+    "died": "0000-00-00",
+    "birthplace": "British Mandate of Palestine (now Israel)",
+    "motivation": "for studies of the structure and function of the ribosome",
+    "category": "chemistry",
+    "year": "2009"
+  },
+  {
+    "name": "Andre",
+    "surname": "Geim",
+    "born": "1958-10-21",
+    "died": "0000-00-00",
+    "birthplace": "Russia",
+    "motivation": "for groundbreaking experiments regarding the two-dimensional material graphene",
+    "category": "physics",
+    "year": "2010"
+  },
+  {
+    "name": "Akira",
+    "surname": "Suzuki",
+    "born": "1930-09-12",
+    "died": "0000-00-00",
+    "birthplace": "Japan",
+    "motivation": "for palladium-catalyzed cross couplings in organic synthesis",
+    "category": "chemistry",
+    "year": "2010"
+  },
+  {
+    "name": "Adam G.",
+    "surname": "Riess",
+    "born": "1969-12-16",
+    "died": "0000-00-00",
+    "birthplace": "USA",
+    "motivation": "for the discovery of the accelerating expansion of the Universe through observations of distant supernovae",
+    "category": "physics",
+    "year": "2011"
+  },
+  {
+    "name": "Alvin E.",
+    "surname": "Roth",
+    "born": "1951-12-18",
+    "died": "0000-00-00",
+    "birthplace": "USA",
+    "motivation": "for the theory of stable allocations and the practice of market design",
+    "category": "economics",
+    "year": "2012"
+  },
+  {
+    "name": "Arieh",
+    "surname": "Warshel",
+    "born": "1940-11-20",
+    "died": "0000-00-00",
+    "birthplace": "British Mandate of Palestine (now Israel)",
+    "motivation": "for the development of multiscale models for complex chemical systems",
+    "category": "chemistry",
+    "year": "2013"
+  },
+  {
+    "name": "Alice",
+    "surname": "Munro",
+    "born": "1931-07-10",
+    "died": "0000-00-00",
+    "birthplace": "Canada",
+    "motivation": "master of the contemporary short story",
+    "category": "literature",
+    "year": "2013"
+  },
+  {
+    "name": "Arthur B.",
+    "surname": "McDonald",
+    "born": "1943-08-29",
+    "died": "0000-00-00",
+    "birthplace": "Canada",
+    "motivation": "for the discovery of neutrino oscillations, which shows that neutrinos have mass",
+    "category": "physics",
+    "year": "2015"
+  },
+  {
+    "name": "Aziz",
+    "surname": "Sancar",
+    "born": "1946-09-08",
+    "died": "0000-00-00",
+    "birthplace": "Turkey",
+    "motivation": "for mechanistic studies of DNA repair",
+    "category": "chemistry",
+    "year": "2015"
+  },
+  {
+    "name": "Angus",
+    "surname": "Deaton",
+    "born": "1945-10-19",
+    "died": "0000-00-00",
+    "birthplace": "Scotland",
+    "motivation": "for his analysis of consumption, poverty, and welfare",
+    "category": "economics",
+    "year": "2015"
+  },
+  {
+    "name": "Arthur",
+    "surname": "Ashkin",
+    "born": "1922-09-02",
+    "died": "2020-09-21",
+    "birthplace": "USA",
+    "motivation": "for the optical tweezers and their application to biological systems",
+    "category": "physics",
+    "year": "2018"
+  },
+  {
+    "name": "Akira",
+    "surname": "Yoshino",
+    "born": "1948-01-30",
+    "died": "0000-00-00",
+    "birthplace": "Japan",
+    "motivation": "for the development of lithium-ion batteries",
+    "category": "chemistry",
+    "year": "2019"
+  },
+  {
+    "name": "Abiy",
+    "surname": "Ahmed Ali",
+    "born": "1976-08-15",
+    "died": "0000-00-00",
+    "birthplace": "Ethiopia",
+    "motivation": "for his efforts to achieve peace and international cooperation, and in particular for his decisive initiative to resolve the border conflict with neighbouring Eritrea",
+    "category": "peace",
+    "year": "2019"
+  },
+  {
+    "name": "Abhijit",
+    "surname": "Banerjee",
+    "born": "1961-02-21",
+    "died": "0000-00-00",
+    "birthplace": "India",
+    "motivation": "for their experimental approach to alleviating global poverty",
+    "category": "economics",
+    "year": "2019"
+  },
+  {
+    "name": "Andrea",
+    "surname": "Ghez",
+    "born": "1965-06-16",
+    "died": "0000-00-00",
+    "birthplace": "USA",
+    "motivation": "for the discovery of a supermassive compact object at the centre of our galaxy",
+    "category": "physics",
+    "year": "2020"
+  },
+  {
+    "name": "Ardem",
+    "surname": "Patapoutian",
+    "born": "1967-00-00",
+    "died": "0000-00-00",
+    "birthplace": "Lebanon",
+    "motivation": "for their discoveries of receptors for temperature and touch",
+    "category": "medicine",
+    "year": "2021"
+  },
+  {
+    "name": "Abdulrazak",
+    "surname": "Gurnah",
+    "born": "1948-00-00",
+    "died": "0000-00-00",
+    "birthplace": "",
+    "motivation": "for his uncompromising and compassionate penetration of the effects of colonialism and the fate of the refugee in the gulf between cultures and continents",
+    "category": "literature",
+    "year": "2021"
+  }
+]
