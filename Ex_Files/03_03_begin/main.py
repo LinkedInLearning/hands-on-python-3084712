@@ -13,18 +13,15 @@ EINSTEIN = {
     "motivation": "for his services to Theoretical Physics...",
 }
 
+einstein_json = json.dumps(EINSTEIN)
+back_to_dict = json.loads(einstein_json)
+print(einstein_json)
+pprint(back_to_dict)
+
 with open("laureates.csv", "r") as f:
     reader = csv.DictReader(f)
     laureates = list(reader)
 
-for laureate in laureates:
-    if laureate["surname"] == "Einstein":
-        pprint(laureate)
-        break
-
-einstein_json = json.dumps(EINSTEIN)
-back_to_dict = json.loads(einstein_json)
-pprint(back_to_dict)
 
 with open("laureates.json", "w") as f:
     json.dump(EINSTEIN, f, indent=2)
