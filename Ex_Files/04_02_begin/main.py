@@ -18,12 +18,10 @@ def index():
 @app.route("/laureates/")
 def laureate():
     # template found in templates/laureate.html
-    # TODO: LinkedIn learners start here.
     results = []
     if not request.args.get("surname"):
         return jsonify(results)
 
-    # TODO: iterate laureates.
     for laureate in laureates:
         if request.args.get("surname").lower().strip() in laureate["surname"].lower():
             results.append(laureate)
