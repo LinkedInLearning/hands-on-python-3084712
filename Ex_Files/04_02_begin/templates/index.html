@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://unpkg.com/@picocss/pico@latest/css/pico.min.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <nav>
+            <ul>
+                <li><strong>laureate search</strong></li>
+            </ul>
+        </nav>
+        <div class="row">
+            <input type="text" id="surname" />
+        </div>
+        <div class="results">
+            <details role="list" open>
+                <summary aria-haspopup="listbox" role="button" disabled style="display: none;">
+                    Dropdown as a button 1
+                </summary>
+                <ul role="listbox">
+                </ul>
+            </details>
+            <div class="detai-tabel"></div>
+        </div>
+    </div>
+    <script>
+        const search = document.getElementById('surname');
+        const results = document.querySelector('ul[role="listbox"]');
+        const details = document.querySelector('details[open]');
+        function changeDetails(e) {
+            const detalTable = document.querySelector('.detai-tabel');
+            const table = document.createElement('table');
+            // if table is empty
+            if (detalTable.childElementCount === 0) {
+
+
+                const tr = document.createElement('tr');
+                const headers = ['first name', 'surname', 'year', 'category', 'motivation', 'died', 'born', 'birthplace'];
+                headers.forEach(header => {
+                    const th = document.createElement('th');
+                    th.innerText = header;
+                    tr.appendChild(th);
+                });
+                table.appendChild(tr);
+            } else {
+                const dataRow = detalTable.lastChild.remove()
+
+            }
+
+            const card = `
+<article>
+  <header>${e.name} ${e.surname}</header>
+  <section>${e.motivation}</section>
+    <table>
+        <tr>
+            <th>year</th>
+            <td>${e.year}</td>
+        </tr>
+        <tr>
+            <th>category</th>
+            <td>${e.category}</td>
+        </tr>
+        <tr>
+            <th>motivation</th>
+            <td>${e.motivation}</td>
+        </tr>
+        <tr>
+            <th>died</th>
+            <td>${e.died}</td>
+        </tr>
+        <tr>
+            <th>born</th>
+            <td>${e.born}</td>
+        </tr>
+        <tr>
+            <th>birthplace</th>
+            <td>${e.birthplace}</td>
+        </tr>
+    </table>
+</article>
+ `
+            detalTable.innerHTML = card
+        }
+        search.addEventListener('input', function (e) {
+            // on third keystroke, show results
+            const searchInput = e.target.value;
+            if (searchInput.length < 2) {
+                return
+            }
+            fetch('/laureates/?surname=' + e.target.value)
+                .then(res => res.json())
+                .then(data => {
+                    results.innerHTML = '';
+                    data.forEach(function (item) {
+                        // TODO
+                        const lst = document.createElement('li');
+                        const a = document.createElement('a');
+                        a.innerText = `${item.name} ${item.surname}`;
+
+                        a.addEventListener('click', function (e) {
+                            results.innerHTML = '';
+                            changeDetails(item);
+                        }
+                        );
+                        lst.appendChild(a);
+                        results.appendChild(lst);
+                    });
+                });
+        });
+    </script>
+</body>
+
+</html>

@@ -1,19 +1,33 @@
-from distutils.debug import DEBUG
-
-from pkg_resources import DEVELOP_DIST
-
-DEVELOPMENT = "development"
-PRODUCTION = "production"
-STAGING = "staging"
+import csv
+from flask import Flask, render_template, request, jsonify
 
 
-current_env = DEVELOPMENT
+app = Flask(__name__)
 
-if current_env == DEVELOPMENT:
-    print("Development environment")
-elif current_env == PRODUCTION:
-    print("Production environment")
-elif current_env == STAGING:
-    print("Staging environment")
-else:
-    print("Unknown environment")
+with open("laureates.csv", "r") as f:
+    reader = csv.DictReader(f)
+    laureates = list(reader)
+
+
+@app.route("/")
+def index():
+    # template found in templates/index.html
+    return render_template("index.html")
+
+
+@app.route("/laureates/")
+def laureate():
+    # template found in templates/laureate.html
+    # TODO: LinkedIn learners start here.
+    results = []
+    if not request.args.get("surname"):
+        return jsonify(results)
+
+    # TODO: iterate laureates.
+    for laureate in laureates:
+        if request.args.get("surname").lower().strip() in laureate["surname"].lower():
+            results.append(laureate)
+    return jsonify(results)
+
+
+app.run(debug=True)
