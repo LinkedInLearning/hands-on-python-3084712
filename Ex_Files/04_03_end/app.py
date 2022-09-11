@@ -23,7 +23,7 @@ def laureate_list():
         return jsonify(results)
 
     search_string = request.args.get("surname").lower().strip()
-    
+
     for laureate in laureates:
         if search_string in laureate["surname"].lower():
             results.append(laureate)
