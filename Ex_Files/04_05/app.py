@@ -26,9 +26,10 @@ def laureate_list():
 
     # tip: remember that laureate["name"] contains a first name
     for laureate in laureates:
-        full_name = f"{laureate['name'].lower()} {laureate['surname'].lower()}"
+        surname = laureate["surname"].lower()
+        first_name = laureate['name'].lower()
         # your code here
-        if search_string in full_name:
+        if (search_string in surname) or (search_string in first_name):
             results.append(laureate)
 
     return jsonify(results)
