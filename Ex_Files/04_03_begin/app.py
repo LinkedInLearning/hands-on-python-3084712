@@ -16,16 +16,14 @@ def index():
 
 
 @app.route("/laureates/")
-def laureate():
+def laureate_list():
     # template found in templates/laureate.html
     results = []
     if not request.args.get("surname"):
         return jsonify(results)
 
-    for laureate in laureates:
-        if request.args.get("surname").lower().strip() in laureate["surname"].lower():
-            results.append(laureate)
-    return jsonify(results)
+    # Your code here!
+    return "your code here!"
 
 
 app.run(debug=True)
