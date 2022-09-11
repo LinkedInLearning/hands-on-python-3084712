@@ -14,12 +14,9 @@
     <div class="container">
         <nav>
             <ul>
-                <li><strong>laureate search</strong></li>
+                <li><strong>laureates</strong></li>
             </ul>
         </nav>
-        <div class="row">
-            <input type="text" id="surname" />
-        </div>
         <div class="results">
             <details role="list" open>
                 <summary aria-haspopup="listbox" role="button" disabled style="display: none;">
@@ -32,7 +29,6 @@
         </div>
     </div>
     <script>
-        const search = document.getElementById('surname');
         const results = document.querySelector('ul[role="listbox"]');
         const details = document.querySelector('details[open]');
         function changeDetails(e) {
@@ -89,12 +85,8 @@
  `
             detalTable.innerHTML = card
         }
-        search.addEventListener('input', function (e) {
+        document.addEventListener('DOMContentLoaded', function (e) {
             // on third keystroke, show results
-            const searchInput = e.target.value;
-            if (searchInput.length < 2) {
-                return
-            }
             fetch('/laureates/?surname=' + e.target.value)
                 .then(res => res.json())
                 .then(data => {
