@@ -1,5 +1,5 @@
 # Hands-On Introduction: Python 
-This is the repository for the LinkedIn Learning course Hands-On Introduction: Python . The full course is available from [LinkedIn Learning][lil-course-url].
+This is the repository for the LinkedIn Learning course Hands-On Introduction: Python. The full course is available from [LinkedIn Learning][lil-course-url].
 
 ![Hands-On Introduction: Python ][lil-thumbnail-url]
 
