@@ -11,9 +11,13 @@ EINSTEIN = {
     "motivation": "for his services to Theoretical Physics...",
 }
 
+print(EINSTEIN)
+print("-------------------")
+
 einstein_json = json.dumps(EINSTEIN)
 back_to_dict = json.loads(einstein_json)
 print(einstein_json)
+print("-------------------")
 pprint(back_to_dict)
 
 with open("laureates.csv", "r") as f:
