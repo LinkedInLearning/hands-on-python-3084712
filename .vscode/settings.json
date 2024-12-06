@@ -19,5 +19,9 @@
   "terminal.integrated.fontSize": 18,
   "workbench.colorTheme": "Visual Studio Dark",
   "workbench.fontAliasing": "antialiased",
-  "workbench.statusBar.visible": true
+  "workbench.statusBar.visible": true,
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.autopep8"
+  },
+  "python.formatting.provider": "none"
 }
